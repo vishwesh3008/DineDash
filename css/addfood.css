@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: url('../images/pexels-pixabay-262978.jpg') center center / cover no-repeat;
+    color: #ff5e00;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+.form-container {
+    align-items: center;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 15px;
+    padding: 20px 30px;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+}
+
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+    color: #ff5e00;
+}
+
+.form-container label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.form-container input[type="text"],
+.form-container input[type="number"],
+.form-container input[type="file"],
+.form-container button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+.form-container fieldset {
+    border: none;
+    margin-bottom: 20px;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.form-container fieldset label {
+    font-size: 1rem;
+}
+
+.form-container button {
+    background: #ff5722;
+    color: #ffffff;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.form-container button:hover {
+    background: #ff9800;
+    color: black;
+}
+
+a.back-link {
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+a.back-link:hover {
+    
+    color: #ff9800;
+}

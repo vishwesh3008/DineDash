@@ -1,0 +1,153 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: url('../images/pexels-pixabay-262978.jpg') center center / cover no-repeat;
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+header {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    align-content: space-between;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #ff5e00;
+}
+
+
+.back-to-home {
+    text-decoration: none;
+    color: #ffffff; 
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    
+}
+
+.back-to-home:hover {
+    color: #ffd700; 
+   
+}
+
+
+
+.cart {
+    width: 90%;
+    max-width: 1200px;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.cart-item {
+    display: flex;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    align-items: center;
+    gap: 1rem;
+}
+
+.cart-item img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.cart-item-details {
+    flex: 1;
+    color: #fff;
+}
+
+.cart-item-details h2 {
+    font-size: 1.5rem;
+    color: #ff6600;
+    margin-bottom: 0.5rem;
+}
+
+.cart-item-details p {
+    margin: 0.3rem 0;
+    font-size: 1rem;
+}
+
+
+.delete-button {
+    background: #ff5e00;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: background 0.3s ease, transform 0.2s ease;
+    cursor: pointer;
+}
+
+.delete-button:hover {
+    background: #ffd700;
+    transform: scale(1.05);
+}
+
+.order-button-container {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.order-button {
+    background: #ff7300;
+    color: #000;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.order-button:hover {
+    background: #fff;
+    transform: translateY(-3px);
+}
+
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    font-size: 0.9rem;
+}
+.empty-cart {
+    text-align: center;
+    font-size: 1.5rem; 
+    color: #ffffff; 
+    font-weight: bold; 
+    margin-top: 2rem; 
+    background: rgba(0, 0, 0, 0.8); 
+    padding: 1rem 2rem; 
+    border-radius: 10px; 
+    width: 50%; 
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+}
